@@ -1,5 +1,6 @@
 package com.bietconnect.bietconnect;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -104,11 +105,12 @@ public class Chat extends AppCompatActivity {
 
         if(type == 1) {
             lp2.gravity = Gravity.END;
-            //textView.setBackgroundResource(R.drawable.bubble_in);
+            textView.setTextColor(Color.WHITE);
+            textView.setBackgroundResource(R.drawable.bubble_out);
         }
         else{
             lp2.gravity = Gravity.START;
-            //textView.setBackgroundResource(R.drawable.bubble_out);
+            textView.setBackgroundResource(R.drawable.bubble_in);
         }
         textView.setLayoutParams(lp2);
         layout.addView(textView);
