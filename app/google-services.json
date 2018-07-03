@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144024250038",
+    "firebase_url": "https://biet-connect.firebaseio.com",
+    "project_id": "biet-connect",
+    "storage_bucket": "biet-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144024250038:android:55b2be8c414bbe93",
+        "android_client_info": {
+          "package_name": "com.bietconnect.bietconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144024250038-m67lbt4ena5ur0drikatvvhb8emrpj27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bietconnect.bietconnect",
+            "certificate_hash": "5c948709bd4a8285b5526fe4375b4b1a866c98c6"
+          }
+        },
+        {
+          "client_id": "144024250038-ghraj1l9v90o9dbt5r8hncuur9pa38r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeGcWAg6KQHp7ZJBZRUi9jwBzcG_nrENs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144024250038-ghraj1l9v90o9dbt5r8hncuur9pa38r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
